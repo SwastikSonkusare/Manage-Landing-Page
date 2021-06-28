@@ -1,0 +1,29 @@
+.navbar {
+    padding: 5rem 12rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo {
+
+    }
+
+    &__items {
+        display: flex;
+    }
+
+    &__item {
+        list-style: none;
+
+        &:not(:last-child) {
+            margin-right: 2rem;
+        }
+    }
+
+    &__links {
+        text-decoration: none;
+        color:  hsl(233, 12%, 13%);
+        font-size: 1.3rem;
+        font-weight: 500;
+    }   
+}
