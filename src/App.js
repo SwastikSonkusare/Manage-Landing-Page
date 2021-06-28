@@ -3,6 +3,7 @@ import React from 'react'
 import Navbar from './components/Navbar/Navbar';
 import Header from './components/Header/Header';
 import MainSection from './components/MainSection/MainSection';
+import Card from './components/Card/Card';
 import Simplify from './components/Simplify/Simplify';
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
             <Navbar />
             <Header />
             <MainSection />
+            <Card />
             <Simplify />
         </>
     )
