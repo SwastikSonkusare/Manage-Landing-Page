@@ -7,6 +7,7 @@ import Button from "../Button/Button";
 import './Header.scss';
 
 const Header = () => {
+    const buttonText = "Get Started";
     
 
   return (
@@ -21,7 +22,7 @@ const Header = () => {
           while keeping the larger team goals in view.
         </p>
 
-        <Button />
+        <Button buttonText={buttonText} />
       </div>
       <div className="header__right-section">
           <img className="header__image" src={illustrationImage} alt={illustrationImage}></img>

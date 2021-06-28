@@ -1,0 +1,53 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 12rem;
+
+    &__left-section {
+        width: 50%;
+    }
+    
+    &__header {
+        color:  hsl(228, 39%, 23%);
+        font-size: 2.5rem;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 2.5rem;
+        max-width: 36rem;
+    }
+    
+    &__paragraph {
+        color: hsl(227, 12%, 61%);
+        font-size: 1.3rem;
+        margin-bottom: 2.5rem;
+        max-width: 28rem;
+    }
+    
+    &__right-section {
+        width: 50%;
+
+    }
+
+    &__container {
+        display: grid;
+        grid-column-gap: 1rem;
+        grid-template-columns: min-content 27rem;
+        grid-template-rows: max-content max-content;
+        margin-bottom: 3rem;
+    }
+
+    &__button {
+        grid-row: 1 / -1;
+    }
+
+    &__container-header {
+        display: flex;
+        align-items: center;
+        font-size: 1.3rem;
+    }
+
+    &__container-paragraph {
+        grid-column: 2 / 3;
+        color: hsl(227, 12%, 61%);
+    }
+}
