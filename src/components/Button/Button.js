@@ -2,9 +2,11 @@ import React from 'react'
 
 import './Button.scss';
 
-const Button = ({ buttonText }) => {
+import '../Simplify/Simplify.scss';
+
+const Button = ({ buttonText, simplifyButton }) => {
     return (
-        <button className="button">
+        <button className={`${simplifyButton ? "simplify__button button" : "button"}`}>
             {buttonText}            
         </button>
     )

@@ -1,0 +1,23 @@
+.simplify {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 10rem;
+    background-color:  hsl(12, 88%, 59%);
+
+    &__header {
+        font-size: 2.5rem;
+        color: hsl(0, 0%, 98%);
+        max-width: 30rem;
+    }
+
+    &__button {
+        color: hsl(12, 88%, 59%);
+        background-color: hsl(0, 0%, 98%);  
+        font-weight: 700;
+
+        // &:hover {
+        //     color: hsl(13, 100%, 96%);
+        // }
+    }
+}
