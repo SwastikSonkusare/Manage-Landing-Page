@@ -8,7 +8,6 @@ import './Navbar.scss';
 
 
 const Navbar = () => {
-    const buttonText = "Get Started";
     const ulItems = ["Pricing", "Product", "About Us", "Careers", "Community"];
 
   return (
@@ -26,7 +25,7 @@ const Navbar = () => {
         ))}
       </ul>
 
-      <Button buttonText={buttonText} />
+      <Button />
     </div>
   );
 };

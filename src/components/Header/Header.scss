@@ -1,0 +1,35 @@
+.header {
+    padding: 3rem 12rem;
+    display: flex;
+    justify-content: space-between;
+
+    &__left-section{
+        padding-top: 5.2rem;
+    }
+
+    &__heading{
+        color:  hsl(228, 39%, 23%);
+        font-size: 4rem;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 2.5rem;
+        max-width: 36rem;
+    }
+    
+    
+    &__paragraph{
+        color: hsl(227, 12%, 61%);
+        font-size: 1.3rem;
+        margin-bottom: 2.5rem;
+        max-width: 28rem;
+    }
+
+    &__right-section{
+
+    }
+
+    &__image {
+        width: 44rem;
+    }
+
+}

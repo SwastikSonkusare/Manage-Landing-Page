@@ -16,13 +16,13 @@
         list-style: none;
 
         &:not(:last-child) {
-            margin-right: 2rem;
+            margin-right: 2.5rem;
         }
     }
 
     &__links {
         text-decoration: none;
-        color:  hsl(233, 12%, 13%);
+        color:  hsl(228, 39%, 23%);
         font-size: 1.3rem;
         font-weight: 500;
     }   
