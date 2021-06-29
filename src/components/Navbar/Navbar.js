@@ -2,20 +2,20 @@ import React from "react";
 
 import Button from "../Button/Button";
 
-import Logo from "../../assets/images/logo.svg";
 
 import './Navbar.scss';
+import LogoSvg from "../LogoSvg/LogoSvg";
 
 
 const Navbar = () => {
+  const color = "#242D52";
     const buttonText = "Get Started";
 
     const ulItems = ["Pricing", "Product", "About Us", "Careers", "Community"];
 
   return (
     <div className="navbar">
-      <img className="navbar__logo" src={Logo} alt={Logo}>
-      </img>
+        <LogoSvg color={color} />
 
       <ul className="navbar__items">
         {ulItems.map((item) => (

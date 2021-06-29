@@ -5,6 +5,7 @@ import Header from './components/Header/Header';
 import MainSection from './components/MainSection/MainSection';
 import Card from './components/Card/Card';
 import Simplify from './components/Simplify/Simplify';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
 
@@ -15,6 +16,7 @@ const App = () => {
             <MainSection />
             <Card />
             <Simplify />
+            <Footer />
         </>
     )
 }
