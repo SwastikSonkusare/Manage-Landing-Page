@@ -2,8 +2,9 @@ import React from "react";
 
 
 import Button from "../Button/Button";
+import Carousel from "../Carousel/Carousel";
 
-import { cardContents } from '../../assets/data'
+import { cardContents } from '../../assets/data';
 
 import "./Card.scss";
 
@@ -15,6 +16,7 @@ const Card = () => {
  
 
   return (
+    <>
     <div className="card">
       <h3 className="card__header">What they've said</h3>
 
@@ -38,7 +40,10 @@ const Card = () => {
       <div className="text-align">
         <Button buttonText={buttonText} hideButton={hideButton} />
       </div>
+
     </div>
+      <Carousel />
+      </>
   );
 };
 
