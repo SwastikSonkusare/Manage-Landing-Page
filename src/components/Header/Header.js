@@ -8,6 +8,8 @@ import './Header.scss';
 
 const Header = () => {
     const buttonText = "Get Started";
+    let hideButton = true;
+
     
 
   return (
@@ -22,7 +24,7 @@ const Header = () => {
           while keeping the larger team goals in view.
         </p>
 
-        <Button buttonText={buttonText} />
+        <Button buttonText={buttonText} hideButton={hideButton} />
       </div>
       <div className="header__right-section">
           <img className="header__image" src={illustrationImage} alt={illustrationImage}></img>

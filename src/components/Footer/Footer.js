@@ -72,10 +72,14 @@ const Footer = () => {
           <Button buttonText={buttonText} />
         </div>
 
-        <small className="footer__copyright">
+        <small className="footer__copyright--1">
           Copyright 2020. All Rights Reserved
         </small>
       </div>
+
+      <small className="footer__copyright--2">
+          Copyright 2020. All Rights Reserved
+        </small>
     </div>
   );
 };

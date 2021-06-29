@@ -6,6 +6,9 @@ import './MainSection.scss';
 
 const MainSection = () => {
 
+
+  const mainButton = true;
+
   const mainContents = [
     {
       id: "01",
@@ -40,7 +43,7 @@ const MainSection = () => {
       <div className="main__right-section">
         {mainContents.map((mainContent) => (
             <div className="main__container">
-                <Button buttonText={mainContent.id} className="main__button" />
+                <Button buttonText={mainContent.id} mainButton={mainButton} />
                 <h4 className="main__container-header">{mainContent.title}</h4>
                 <p className="main__container-paragraph">{mainContent.paragraph}</p>
             </div>

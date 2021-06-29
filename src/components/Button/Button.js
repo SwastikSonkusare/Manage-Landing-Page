@@ -4,9 +4,9 @@ import './Button.scss';
 
 import '../Simplify/Simplify.scss';
 
-const Button = ({ buttonText, simplifyButton }) => {
+const Button = ({ buttonText, simplifyButton, mainButton }) => {
     return (
-        <button className={`${simplifyButton ? "simplify__button button" : "button"}`}>
+        <button className={`${simplifyButton ? "simplify__button button" : "button"} ${mainButton ? "main__button button" : "button" }` }>
             {buttonText}            
         </button>
     )

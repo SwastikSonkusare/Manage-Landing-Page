@@ -3,13 +3,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    &__logo {
-
+    
+    @media only screen and (max-width: 56.25em) {
+        padding: 5rem 8rem;
     }
 
+    @media only screen and (max-width: 31.25em) {
+        padding: 5rem;
+    }
+    
+    
     &__items {
         display: flex;
+
+        @media only screen and (max-width: 62.5em) {
+            display: none;
+        }
     }
 
     &__item {
@@ -25,5 +34,33 @@
         color:  hsl(228, 39%, 23%);
         font-size: 1.3rem;
         font-weight: 500;
+
+        &:hover {
+            color: hsl(227, 12%, 61%);
+        }
     }   
+
+    &__button {
+        @media only screen and (max-width: 62.5em) {
+            display: none;
+        }
+    }
+
+
+    &__hamburger {
+        display: none;
+        cursor: pointer;
+
+        @media only screen and (max-width: 62.5em) {
+            display: block;
+        }
+    }
+
+    &__hide-button {
+        display: inline-block;
+
+        @media only screen and (max-width: 62.5em) {
+            display: none;
+        }
+    }
 }

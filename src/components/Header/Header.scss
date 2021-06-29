@@ -3,8 +3,24 @@
     display: flex;
     justify-content: space-between;
 
+    @media only screen and (max-width: 56.25em) {
+        padding: 3rem 8rem;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    @media only screen and (max-width: 31.25em) {
+        padding: 3rem;
+    }
+    
+
     &__left-section{
         padding-top: 5.2rem;
+
+        
+        @media only screen and (max-width: 56.25em) {
+            text-align: center;   
+        }
     }
 
     &__heading{
@@ -22,14 +38,19 @@
         font-size: 1.3rem;
         margin-bottom: 2.5rem;
         max-width: 28rem;
+
+        @media only screen and (max-width: 56.25em) {
+            margin: 0 auto 2.5rem auto;
+        }
     }
 
     &__right-section{
+        max-width: 44rem;
 
     }
 
     &__image {
-        width: 44rem;
+        width: 100%;
     }
 
 }

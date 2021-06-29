@@ -10,6 +10,7 @@ const Simplify = () => {
     const buttonText = "Get Started";
 
 
+
     return (
         <div className="simplify">
             <h3 className="simplify__header">Simplify how your team works today</h3>

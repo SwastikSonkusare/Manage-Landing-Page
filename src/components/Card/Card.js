@@ -11,6 +11,8 @@ import "./Card.scss";
 
 const Card = () => {
   const buttonText = "Get Started";
+  let hideButton = true;
+
 
   const cardContents = [
     {
@@ -61,7 +63,7 @@ const Card = () => {
         </div>
       </div>
       <div className="text-align">
-        <Button buttonText={buttonText} />
+        <Button buttonText={buttonText} hideButton={hideButton} />
       </div>
     </div>
   );
