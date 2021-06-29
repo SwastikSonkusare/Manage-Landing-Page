@@ -1,44 +1,57 @@
 .card {
-
+    margin: 3rem 0 12rem 0;
 
     &__header {
         text-align: center;
         color:  hsl(228, 39%, 23%);
-        font-size: 2.5rem;
+        font-size: 3rem;
         font-weight: 700;
         line-height: 1.2;
     }
 
     &__container {
-       
+        overflow-x: auto;
+        overflow-y: hidden;
     }
 }
 
 .person {
     display: flex;
-    // width: 300px;
-    overflow-x: auto;
-    overflow-y: hidden;
+    margin: 8rem 0 4rem 0;
+  
+    width: 175rem;
 
     &__container {
+        padding: 4.5rem 2rem 1rem 2rem;
+        text-align: center;
         position: relative;
         background-color: pink;
         opacity: .85;
-        margin-right: 3rem;
+        max-width: 42rem;
+
+        &:not(:last-child) {
+            margin-right: 2.5rem;
+        }
     }
 
     &__avatar {
         position: absolute;
+        width: 60px;
+        height: 60px;
         top: 0;
         left: 50%;
-        transform: translateY(-50%);
+        transform: translate(-50%, -50%);
     }
 
     &__name {
-
+        color:  hsl(228, 39%, 23%);
+        font-size: 1.5rem;
+        font-weight: 700;
     }
-
+    
     &__comment {
-
+        font-size: 1.3rem;
+        margin: 1.5rem 0;
+        color: hsl(227, 12%, 61%);
     }
 }

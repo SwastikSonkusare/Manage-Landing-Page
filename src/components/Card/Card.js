@@ -5,9 +5,13 @@ import avatar2 from "../../assets/images/avatar-anisha.png";
 import avatar3 from "../../assets/images/avatar-richard.png";
 import avatar4 from "../../assets/images/avatar-shanai.png";
 
+import Button from "../Button/Button";
+
 import "./Card.scss";
 
 const Card = () => {
+  const buttonText = "Get Started";
+
   const cardContents = [
     {
       avatar: avatar1,
@@ -55,6 +59,9 @@ const Card = () => {
             </>
           ))}
         </div>
+      </div>
+      <div className="text-align">
+        <Button buttonText={buttonText} />
       </div>
     </div>
   );
