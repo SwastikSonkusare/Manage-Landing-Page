@@ -1,37 +1,16 @@
 import React from "react";
 
-import facebookIcon from "../../assets/images/icon-facebook.svg";
-import youtubeIcon from "../../assets/images/icon-youtube.svg";
-import twitterIcon from "../../assets/images/icon-twitter.svg";
-import pinterestIcon from "../../assets/images/icon-pinterest.svg";
-import instagramIcon from "../../assets/images/icon-instagram.svg";
-
 import Button from "../Button/Button";
+import { footerItems, footerIcons } from '../../assets/data'
+
 import LogoSvg from "../LogoSvg/LogoSvg";
 
 import "./Footer.scss";
 const Footer = () => {
     const color = "hsl(0, 0%, 98%)"
-  const buttonText = "Go";
+    const buttonText = "Go";
 
-  const footerIcons = [
-    facebookIcon,
-    youtubeIcon,
-    twitterIcon,
-    pinterestIcon,
-    instagramIcon,
-  ];
-
-  const footerItems = [
-    {
-      id: 1,
-      items: ["Home", "Pricing", "Products", "About Us"],
-    },
-    {
-      id: 2,
-      items: ["Careers", "Community", "Private Policy"],
-    },
-  ];
+ 
 
   return (
     <div className="footer">

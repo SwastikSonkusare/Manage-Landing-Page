@@ -3,12 +3,12 @@ import React from "react";
 import closeIcon from "../../assets/images/icon-close.svg";
 
 import Button from "../Button/Button";
+import { ulItems } from '../../assets/data'
 
 import './Sidebar.scss';
 
 
 const Sidebar = ({ sidebarRef, buttonText }) => {
-    const ulItems = ["Pricing", "Product", "About Us", "Careers", "Community"];
 
 
     const closeSideBarHandler = () => {
