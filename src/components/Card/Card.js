@@ -37,7 +37,7 @@ const Card = () => {
           ))}
         </div>
       </div>
-      <div className="text-align">
+      <div className="text-align card__button">
         <Button buttonText={buttonText} hideButton={hideButton} />
       </div>
 

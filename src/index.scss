@@ -23,13 +23,6 @@ html {
 body {
     min-height: 100vh;
     box-sizing: border-box;
-
-    &::-webkit-scrollbar {
-        width: 0 !important;
-        display: none;
-    }
-
-   
 }
 
 
