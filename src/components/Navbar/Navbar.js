@@ -25,7 +25,7 @@ const Navbar = () => {
     <>
       <Sidebar sidebarRef={sidebarRef} buttonText={buttonText} />
 
-      <div className="navbar">
+      <nav className="navbar">
         <LogoSvg color={color} />
 
         <ul className="navbar__items">
@@ -45,7 +45,7 @@ const Navbar = () => {
         <div className="navbar__hamburger" onClick={sidebarHandler}>
           <img src={hamburgerIcon} alt={hamburgerIcon} />
         </div>
-      </div>
+      </nav>
     </>
   );
 };
